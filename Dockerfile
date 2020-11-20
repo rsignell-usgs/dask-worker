@@ -5,6 +5,8 @@ RUN chmod +x /usr/local/bin/dumb-init
 
 RUN conda install --yes \
     -c conda-forge \
+    rechunker \
+    zarr \
     python-blosc==1.8.1 \
     cytoolz \
     dask==2.19.0 \
